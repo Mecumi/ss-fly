@@ -153,9 +153,9 @@ install_ssr() {
                      yum install -y wget
                      ;;
         esac
-	wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocksR.sh
-	chmod +x shadowsocksR.sh
-	./shadowsocksR.sh 2>&1 | tee shadowsocksR.log
+#wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocksR.sh
+	chmod +x ss-fly/shadowsocksR.sh
+	ss-fly/shadowsocksR.sh 2>&1 | tee ss-fly/shadowsocksR.log
 }
 
 check_os_() {
