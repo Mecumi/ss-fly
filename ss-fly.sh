@@ -154,10 +154,8 @@ case $os in
  ;;
 esac
 #wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocksR.sh
-#chmod +x ss-fly/shadowsocksR.sh
-#ss-fly/shadowsocksR.sh 2>&1 | tee ss-fly/shadowsocksR.log
-chmod +x ss-fly/SSR.SH
-ss-fly/SSR.SH 2>&1 | tee ss-fly/SSR.log
+chmod +x ss-fly/shadowsocksR.sh
+ss-fly/shadowsocksR.sh 2>&1 | tee ss-fly/shadowsocksR.log
 }
 
 check_os_() {
